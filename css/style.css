@@ -27,13 +27,18 @@ header {
     text-align: center;
 }
 
+.signup {
+    padding-top: 2em;
+}
+
 .signup a {
     text-decoration: none;
-    color: #FFF;
+    color: #e8ce4d;
     font-family: 'Ubuntu', monospace;
-    border: 1px solid #fff;
-    padding: .5em 1em;
+    border: 1px solid #40596b;
+    padding: .5em 2em;
     border-radius: .5em;
+    background: #40596b;
 }
 
 .container {
@@ -98,4 +103,55 @@ header {
     font-size: .7em;
     color: #E8CE4D;
     text-transform: lowercase;
+}
+
+.login {
+    width: 100%;
+    background: #E8CE4D;
+    height: 75vh;
+}
+
+.login form {
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.login form .inputwrapper {
+    width: 100%;
+    margin: 1em auto;
+}
+
+.login form .inputwrapper input[type="text"],
+.login form .inputwrapper input[type="password"] {
+    width: 100%;
+    height: 2em;
+    padding: .5em;
+    background: #d4bc44;
+    border: 2px solid #40596b;
+    color: #FFF;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.login form .submit {
+    display: grid;
+    grid-template-columns: auto 70%;
+}
+
+.login form .submit a.btn-login {
+    background: #40596b;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #E8CE4D;
+    border: none;
+    font-size: 1.2em;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.login form .submit a {
+    color: #40596b;
+    text-align: right;
+    text-decoration: none;
+    padding-top: 1em;
 }
